@@ -1,7 +1,7 @@
 name: Run tests and upload coverage
 
 on: 
-  push:
+  push: 
     branches: [ main ]
     paths: [ '**.java', 'pom.xml', '.github/workflows/**' ]
   pull_request:
